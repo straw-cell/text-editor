@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #897171;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .editor-container {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 500px;
+}
+body .editor-container .editor-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+body .editor-container .editor-header h1 .highlight {
+  color: #0056e0;
+}
+body .editor-container .toolbar {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+body .editor-container .toolbar .toolbar-btn {
+  background-color: #fff;
+  color: black;
+  border: 1px solid;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+body .editor-container .toolbar .toolbar-btn:hover {
+  transform: scale(1.1);
+}
+body .editor-container .toolbar .font-size {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+body .editor-container .toolbar .font-size label {
+  margin-right: 5px;
+}
+body .editor-container .toolbar .font-size select {
+  padding: 5px;
+  font-size: 14px;
+}
+body .editor-container .text-area {
+  border-top: 1px solid #333;
+  padding-top: 10px;
+  font-weight: 100;
+}/*# sourceMappingURL=style.css.map */

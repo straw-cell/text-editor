@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Word</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="editor-container">
+        <div class="editor-header">
+            <h1><span class="highlight">Mini</span> Word</h1>
+        </div>
+
+        <div class="toolbar">
+            <button id="btnone" class="toolbar-btn" onclick="bold()">B</button>
+            <button id="btntwo" class="toolbar-btn" onclick="underline()">U</button>
+            <button id="btnthree" class="toolbar-btn" onclick="italic()">I</button>
+            <div class="font-size">
+                <label for="font-size">Font Size</label>
+                <select id="font-size" onchange="fontsize()">
+                    <option value="10px">10</option>
+                    <option value="12px">12</option>
+                    <option value="14px">14</option>
+                    <option value="16px" selected>16</option>
+                    <option value="18px">18</option>
+                    <option value="30px">30</option>
+                    <option value="50px">50</option>
+                </select>
+            </div>
+        </div>
+
+        <div  id="last" class="text-area" contenteditable="true">
+
+           this is a text sample
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
